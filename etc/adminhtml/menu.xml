@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Yireo_ExampleHyvaAdmin::menu" title="Hyva Admin Examples" translate="title" module="Yireo_ExampleHyvaAdmin" sortOrder="50" parent="Magento_Backend::system" resource="Yireo_ExampleHyvaAdmin::menu"/>
+
+        <add id="Yireo_ExampleHyvaAdmin::logfiles" title="Logfiles Grid" translate="title" module="Yireo_ExampleHyvaAdmin" sortOrder="1" parent="Yireo_ExampleHyvaAdmin::menu" action="example_hyva_admin/index/logfiles" resource="Yireo_ExampleHyvaAdmin::logfiles"/>
+
+        <add id="Yireo_ExampleHyvaAdmin::items" title="Example items" translate="title" module="Yireo_ExampleHyvaAdmin" sortOrder="2" parent="Yireo_ExampleHyvaAdmin::menu" action="example_hyva_admin/index/items" resource="Yireo_ExampleHyvaAdmin::items"/>
+    </menu>
+</config>

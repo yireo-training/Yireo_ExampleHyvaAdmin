@@ -1,0 +1,20 @@
+{
+  "name": "yireo/example-hyva-admin",
+  "version": "0.0.1",
+  "description": "Example Magento 2 module implementing Hyva Admin",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*"
+  },
+  "license": [
+    "Proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Yireo\\ExampleHyvaAdmin\\": ""
+    }
+  }
+}
